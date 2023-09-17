@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 
 include(":day-1:01-jvm-minimal")
+include(":day-1:02-kmp-minimal")
