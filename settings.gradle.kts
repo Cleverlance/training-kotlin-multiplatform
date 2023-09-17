@@ -6,3 +6,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+include(":day-1:01-jvm-minimal")
