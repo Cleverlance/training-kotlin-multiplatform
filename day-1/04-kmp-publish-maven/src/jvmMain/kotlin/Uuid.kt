@@ -1,0 +1,1 @@
+actual typealias Uuid = java.util.UUID

@@ -1,0 +1,1 @@
+expect class Uuid(high: Long, low: Long)
