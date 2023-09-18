@@ -1,0 +1,1 @@
+fun helloJvm() = hello("JVM")

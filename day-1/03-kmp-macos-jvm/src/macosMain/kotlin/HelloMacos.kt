@@ -1,0 +1,1 @@
+fun helloMacos() = hello("macOS")
