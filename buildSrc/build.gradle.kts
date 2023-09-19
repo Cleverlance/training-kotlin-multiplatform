@@ -11,8 +11,10 @@ java {
 
 repositories {
     gradlePluginPortal()
+    google()
 }
 
 dependencies {
     implementation(kotlin("gradle-plugin"))
+    implementation("com.android.tools.build:gradle:8.1.1")
 }
