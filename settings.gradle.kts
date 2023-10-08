@@ -19,3 +19,4 @@ include(":day-1:06-kmp-full-project:android:app")
 include(":day-1:06-kmp-full-project:ios:integration")
 
 include(":day-2:01-jvm-bytecode")
+include(":day-2:02-java-interop")
