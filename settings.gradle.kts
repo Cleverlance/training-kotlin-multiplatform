@@ -17,3 +17,5 @@ include(":day-1:06-kmp-full-project:shared:libraryA")
 include(":day-1:06-kmp-full-project:shared:libraryB")
 include(":day-1:06-kmp-full-project:android:app")
 include(":day-1:06-kmp-full-project:ios:integration")
+
+include(":day-2:01-jvm-bytecode")
