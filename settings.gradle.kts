@@ -20,3 +20,4 @@ include(":day-1:06-kmp-full-project:ios:integration")
 
 include(":day-2:01-jvm-bytecode")
 include(":day-2:02-java-interop")
+include(":day-2:03-swift-interop:shared")
