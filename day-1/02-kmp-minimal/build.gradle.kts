@@ -6,10 +6,8 @@ kotlin {
     jvm()
 
     sourceSets {
-        val jvmTest by getting {
-            dependencies {
-                implementation(kotlin("test"))
-            }
+        jvmTest.dependencies {
+            implementation(kotlin("test"))
         }
     }
 }

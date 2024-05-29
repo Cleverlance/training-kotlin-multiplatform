@@ -3,7 +3,7 @@ plugins {
 }
 
 kotlin {
-    iosArm64("ios")
+    iosArm64()
     iosSimulatorArm64()
 
     kotlinArtifacts {

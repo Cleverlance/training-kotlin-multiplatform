@@ -9,24 +9,18 @@
 ## JVM-only dependency
 
 ``` kotlin
-val jvmTest by getting {
-    dependencies {
-        implementation("junit:junit:4.13")
-    }
+jvmTest.dependencies {
+    implementation("junit:junit:4.13.2")
 }
 ```
 
 ## JVM & Native non-multiplatform dependency
 
 ``` kotlin
-val macosMain by getting {
-    dependencies {
-        implementation("com.squareup.sqldelight:native-driver:1.5.5")
-    }
+macosMain.dependencies {
+    implementation("com.squareup.sqldelight:native-driver:1.5.5")
 }
-val jvmMain by getting {
-    dependencies {
-        implementation("com.squareup.sqldelight:sqlite-driver:1.5.5")
-    }
+jvmMain.dependencies {
+    implementation("com.squareup.sqldelight:sqlite-driver:1.5.5")
 }
 ```
